@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(curl -s --max-time 10 'https://the-sneaker-database.p.rapidapi.com/sneakers?brand=Nike&limit=2' -H 'X-RapidAPI-Key: f88b5b17eamsh423f59c33a8982bp1504dcjsnf624b606cdd4' -H 'X-RapidAPI-Host: the-sneaker-database.p.rapidapi.com')",
+      "Bash(curl -s --max-time 10 'https://kickdb.p.rapidapi.com/sneaker/search?query=Nike+Air+Force&limit=2' -H 'X-RapidAPI-Key: f88b5b17eamsh423f59c33a8982bp1504dcjsnf624b606cdd4' -H 'X-RapidAPI-Host: kickdb.p.rapidapi.com')",
+      "Bash(curl -s --max-time 10 'https://sneakers-db2.p.rapidapi.com/shoes?brand=nike' -H 'X-RapidAPI-Key: f88b5b17eamsh423f59c33a8982bp1504dcjsnf624b606cdd4' -H 'X-RapidAPI-Host: sneakers-db2.p.rapidapi.com')",
+      "Bash(curl -s --max-time 10 https://nikeshoesapi.p.rapidapi.com/products -H 'X-RapidAPI-Key: f88b5b17eamsh423f59c33a8982bp1504dcjsnf624b606cdd4' -H 'X-RapidAPI-Host: nikeshoesapi.p.rapidapi.com')",
+      "Bash(curl -s --max-time 10 'https://shoes-by-api-ninjas.p.rapidapi.com/v1/shoes?brand=nike&limit=5' -H 'X-RapidAPI-Key: f88b5b17eamsh423f59c33a8982bp1504dcjsnf624b606cdd4' -H 'X-RapidAPI-Host: shoes-by-api-ninjas.p.rapidapi.com')",
+      "Bash(curl -s --max-time 10 'https://apininja.p.rapidapi.com/v1/shoes?name=nike&limit=5' -H 'X-RapidAPI-Key: f88b5b17eamsh423f59c33a8982bp1504dcjsnf624b606cdd4' -H 'X-RapidAPI-Host: apininja.p.rapidapi.com')",
+      "Bash(curl -s --max-time 10 'https://api-ninjas-shoes.p.rapidapi.com/v1/shoes?name=nike' -H 'X-RapidAPI-Key: f88b5b17eamsh423f59c33a8982bp1504dcjsnf624b606cdd4' -H 'X-RapidAPI-Host: api-ninjas-shoes.p.rapidapi.com')",
+      "Bash(curl -s --max-time 10 'https://kicks.dev/api/products?brand=Nike&limit=2' -H 'x-api-key: KICKS-D506-7093-B2A6-1BA9D53FF689')",
+      "Bash(curl -s --max-time 10 'https://kicks.dev/api/v1/products?brand=Nike&limit=2' -H 'x-api-key: KICKS-D506-7093-B2A6-1BA9D53FF689')",
+      "Bash(curl -s --max-time 10 'https://api.kicks.dev/v1/products?brand=Nike&limit=2' -H 'x-api-key: KICKS-D506-7093-B2A6-1BA9D53FF689')",
+      "Bash(curl -s --max-time 10 'https://api.kicks.dev/v1/sneakers?brand=Nike&limit=2' -H 'Authorization: Bearer KICKS-D506-7093-B2A6-1BA9D53FF689')",
+      "Bash(curl -s --max-time 10 'https://api.kicks.dev/sneakers?limit=2' -H 'Authorization: Bearer KICKS-D506-7093-B2A6-1BA9D53FF689')",
+      "Bash(curl -s --max-time 10 'https://api.kicks.dev/v1/search?query=Nike&limit=2' -H 'Authorization: Bearer KICKS-D506-7093-B2A6-1BA9D53FF689')",
+      "Bash(curl -s --max-time 10 \"https://api.nike.com/product_feed/threads/v2/?filter=marketplace\\(US\\)&filter=language\\(en\\)&filter=channelId\\(d9a5bc42-4b9c-4976-858a-f159cf99c647\\)&filter=exclusiveAccess\\(true,false\\)&count=3\")",
+      "Bash(curl -s --max-time 10 \"https://api.nike.com/cics/mdp/products/v1/search/products?queryid=products&query=Nike+Air+Force+1&language=en&marketplace=US&count=6\")",
+      "Bash(curl -s --max-time 10 \"https://api.sneakersapi.dev/api/v3/products?brand=Nike&limit=4\")",
+      "Bash(curl -s --max-time 10 \"https://api.nike.com/product_feed/threads/v2/?filter=marketplace\\(US\\)&filter=language\\(en\\)&filter=channelId\\(d9a5bc42-4b9c-4976-858a-f159cf99c647\\)&filter=exclusiveAccess\\(true,false\\)&count=1\")",
+      "Bash(python3 -c ' *)"
+    ]
+  }
+}
